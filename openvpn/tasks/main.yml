@@ -10,7 +10,7 @@
 
 - include_tasks: openvpn-server-register-clients.yml
 
-- include_tasks: ca-server-sign-client.yaml
+- include_tasks: ca-server-sign-client.yml
 
 - include_tasks: opnevpn-server-copy-client-certs.yml
 
