@@ -4,7 +4,7 @@ dependency:
 driver:
   name: vagrant
 platforms:
-  - name: server
+  - name: sasuke
     box: ubuntu/focal64
     interfaces:
       - network_name: private_network
