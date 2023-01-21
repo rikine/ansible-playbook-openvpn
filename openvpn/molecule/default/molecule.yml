@@ -1,0 +1,15 @@
+---
+dependency:
+  name: galaxy
+driver:
+  name: vagrant
+platforms:
+  - name: server
+    box: ubuntu/focal64
+    interfaces:
+      - network_name: private_network
+        ip: 192.168.50.20
+provisioner:
+  name: ansible
+verifier:
+  name: ansible
